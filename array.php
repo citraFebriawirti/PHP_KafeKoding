@@ -20,7 +20,7 @@ $klub =[
       ],
       [
        
-        'nama'=>'Ihilo Kehrer',
+        'nama'=>'Thilo Kehrer',
         'posisi'=>'DF',
         'nomor'=>4,
         'negara'=>'Jerman'
@@ -28,14 +28,10 @@ $klub =[
      // dan sebagainya
    ]
 ];
+echo 'Citra Febriawirti'.'<br>'.'2011100032';
+echo '<hr>';
+echo '<br>';
 
-echo $klub['pemain'][0]['nama'];
-echo $klub['pemain'][0]['negara'];
-echo "<br>";
-echo $klub['pemain'][1]['nama'];
-echo $klub['pemain'][1]['negara'];
+echo $klub['nama'].' adalah salah satu klub dari '.$klub['negara'].' yang bermain di ' .$klub['liga'].'. Dengan daftar pemain sebagai berikut  '.$klub['pemain'][0]['nama'] .' ,'.$klub['pemain'][1]['nama'] .' ,'.$klub['pemain'][2]['nama'] .' ,'.' dan sebagainya';
 
-
-
-
- ?>
+?>
